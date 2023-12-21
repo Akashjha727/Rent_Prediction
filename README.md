@@ -58,7 +58,21 @@ This dataset contains information about house rentals in India. The dataset incl
 
 # Accuracy of Model
 
-After training and tuning the machine learning model on the Home Rental Dataset, the performance of the best model is evaluated using accuracy as the evaluation metric. The model accuracy on the test set is 98%, which shows how well the model predicts the rental price based on the given features.
+After training and tuning the machine learning model on the Home Rental Dataset, the performance of the best model is evaluated using accuracy as the evaluation metric. The model accuracy on the test set is 96%, which shows how well the model predicts the rental price based on the given features.
 
 <img width="560" alt="image" src="https://github.com/Akashjha727/Rent_Prediction/assets/143934503/d00f76c4-9c25-4ccb-af2a-aabcac59fc36">
+
+The above figure shows visualization of XGBoost Model accuracy train & test.
+
+# Deployment with Streamlit
+
+Please click on this link for Demo https://rent-prediction.streamlit.app/
+Streamlit Deployment 
+<img width="863" alt="image" src="https://github.com/Akashjha727/Rent_Prediction/assets/143934503/d4478a5c-2633-4938-bf2e-ac5087de6de9">
+<img width="884" alt="image" src="https://github.com/Akashjha727/Rent_Prediction/assets/143934503/c1d02aad-0fc3-463f-b137-63d60293ba6f">
+
+<img width="873" alt="image" src="https://github.com/Akashjha727/Rent_Prediction/assets/143934503/058a6a8a-224e-401d-b9fe-a154a8aeee87">
+
+<img width="877" alt="image" src="https://github.com/Akashjha727/Rent_Prediction/assets/143934503/de017d94-10da-43cd-863d-aaa42555eb38">
+
 
