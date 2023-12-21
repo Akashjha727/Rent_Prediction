@@ -30,21 +30,33 @@ This dataset contains information about house rentals in India. The dataset incl
 # Learning for Rent Prediction Model:
 
 1) Exploratory & Statistics Analysis
+   
    Perform data exploration to gain insights into the distribution, relationships, and summary statistics of the rental 
    dataset.
    Visualize various features and their impact on rental prices, such as the number of bedrooms, location, furnishing 
    status, and more.
    Identify any outliers, missing values, or data inconsistencies that need to be addressed.
+   
 2) Feature Engineering & Data Preprocessing:
+   
    Create new meaning features to balance or optimize analysis
    Preprocess data and removed outliers to reduce bias or extreme values
+   
 3) Model Building & Model Tuning
+   
    Fitted with several regression model , Found XGboost evaluation metrics most efficient.
    Created Pipeline for Column transformation of Category & Standardization of numeric features.
    Fine Tuned models with RandomsearchCV to get optimum R2 Scores.
    feature Elimination
+   
 4) Model Deployment with Streamlit:
+   
    Build an interactive web application using Streamlit to showcase the trained model's predictions.
    Enable users to input relevant features of a property and obtain an estimated rental price.
    Deploy the web application on a suitable platform to make it accessible to users. 
+
+# Accuracy of Model
+
+After training and tuning the machine learning model on the Home Rental Dataset, the performance of the best model is evaluated using accuracy as the evaluation metric. The model accuracy on the test set is 98%, which shows how well the model predicts the rental price based on the given features.
+
 
