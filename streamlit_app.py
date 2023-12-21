@@ -84,6 +84,7 @@ pages={'EDA':eda,'Predict':predict}
 
 def main():
     st.title("Apartment_Price_Estimator & Exploratory Data Analysis")
+    st.write('2 pages EDA & Rent Predict')
     selected_page=st.sidebar.selectbox('Choose a page',options=list(pages.keys()))
 
     pages[selected_page]()
