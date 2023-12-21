@@ -13,6 +13,7 @@ Prospective tenants can benefit by having insights into expected rent prices. Th
 
 # About Dataset
 This dataset contains information about house rentals in India. The dataset includes various parameters such as the number of bedrooms, rent, size, floor details, area type, area locality, city, furnishing status, preferred tenant type, number of bathrooms, and point of contact. 
+
  Data Summary:
 1) BHK: Number of Bedrooms, Hall, Kitchen.
 2) Rent: Rent of the Houses/Apartments/Flats.
@@ -25,3 +26,25 @@ This dataset contains information about house rentals in India. The dataset incl
 9) Tenant Preferred: Type of Tenant Preferred by the Owner or Agent.
 10) Bathroom: Number of Bathrooms.
 11) Point of Contact: Whom should you contact for more information regarding the Houses/Apartments/Flats.
+
+# Learning for Rent Prediction Model:
+
+1) Exploratory & Statistics Analysis
+   Perform data exploration to gain insights into the distribution, relationships, and summary statistics of the rental 
+   dataset.
+   Visualize various features and their impact on rental prices, such as the number of bedrooms, location, furnishing 
+   status, and more.
+   Identify any outliers, missing values, or data inconsistencies that need to be addressed.
+2) Feature Engineering & Data Preprocessing:
+   Create new meaning features to balance or optimize analysis
+   Preprocess data and removed outliers to reduce bias or extreme values
+3) Model Building & Model Tuning
+   Fitted with several regression model , Found XGboost evaluation metrics most efficient.
+   Created Pipeline for Column transformation of Category & Standardization of numeric features.
+   Fine Tuned models with RandomsearchCV to get optimum R2 Scores.
+   feature Elimination
+4) Model Deployment with Streamlit:
+   Build an interactive web application using Streamlit to showcase the trained model's predictions.
+   Enable users to input relevant features of a property and obtain an estimated rental price.
+   Deploy the web application on a suitable platform to make it accessible to users. 
+
