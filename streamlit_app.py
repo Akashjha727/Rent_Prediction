@@ -80,11 +80,11 @@ def predict():
         charges=np.round(float(charges_pred[0]),2)
         st.success(f'Apartment Rent Estimate (INR): {charges}')
 
-pages={'EDA':eda,'Predict':predict}
+pages={'Predict':predict,'EDA':eda}
 
 def main():
     st.title("Apartment_Price_Estimator & Exploratory Data Analysis")
-    st.write('2 pages EDA & Rent Predict')
+    st.write('Statistic Analysis & Rent Predict')
     selected_page=st.sidebar.selectbox('Choose a page',options=list(pages.keys()))
 
     pages[selected_page]()
