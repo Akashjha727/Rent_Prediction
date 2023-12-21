@@ -1,3 +1,4 @@
+
 # Rent_Prediction
 Rent_Prediction_model using Streamlit Deployment Using Machine Learning Algorithms
 
@@ -59,4 +60,5 @@ This dataset contains information about house rentals in India. The dataset incl
 
 After training and tuning the machine learning model on the Home Rental Dataset, the performance of the best model is evaluated using accuracy as the evaluation metric. The model accuracy on the test set is 98%, which shows how well the model predicts the rental price based on the given features.
 
+<img width="560" alt="image" src="https://github.com/Akashjha727/Rent_Prediction/assets/143934503/d00f76c4-9c25-4ccb-af2a-aabcac59fc36">
 
